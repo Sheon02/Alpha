@@ -66,70 +66,58 @@ A modern, full-stack e-commerce platform built with Next.js, React, Node.js, and
 5. Open your browser and navigate to:
   http://localhost:3000
 ## Project Structure
-
   e-commerce-project/
-  ├── frontend/               # Next.js frontend application
-  │   ├── components/         # Reusable UI components
-  │   ├── pages/              # Application pages
-  │   ├── public/             # Static assets
-  │   ├── styles/             # Global styles
-  │   ├── store/              # Redux store configuration
-  │   └── utils/              # Utility functions
-  │
-  ├── backend/                # Node.js backend application
-  │   ├── config/             # Configuration files
-  │   ├── controllers/        # Route controllers
-  │   ├── models/             # MongoDB models
-  │   ├── routes/             # API routes
-  │   ├── middleware/         # Custom middleware
-  │   └── utils/              # Utility functions
-  │
-  ├── .gitignore
-  ├── LICENSE
-  └── README.md
+  ├── frontend/               # Next.js frontend application  
+  │   ├── components/         # Reusable UI components  
+  │   ├── pages/              # Application pages  
+  │   ├── public/             # Static assets  
+  │   ├── styles/             # Global styles  
+  │   ├── store/              # Redux store configuration  
+  │   └── utils/              # Utility functions  
+  │  
+  ├── backend/                # Node.js backend application  
+  │   ├── config/             # Configuration files  
+  │   ├── controllers/        # Route controllers  
+  │   ├── models/             # MongoDB models  
+  │   ├── routes/             # API routes  
+  │   ├── middleware/         # Custom middleware  
+  │   └── utils/              # Utility functions  
+  │  
+  ├── .gitignore  
+  ├── LICENSE  
+  └── README.md  
   
 ## Available Scripts
 ###Frontend
-  npm run dev - Start development server
-
-  npm run build - Create production build
-
-  npm start - Start production server
-
-  npm test - Run tests
+  npm run dev - Start development server  
+  npm run build - Create production build  
+  npm start - Start production server  
+  npm test - Run tests  
 
 ### Backend
-  npm start - Start production server
-
-  npm run dev - Start development server with nodemon
-
-  npm test - Run tests
+  npm start - Start production server  
+  npm run dev - Start development server with nodemon  
+  npm test - Run tests  
 
 ## Deployment
 ### Frontend (Vercel)
-  Push your code to a GitHub repository
-
-  Create a Vercel account and import your project
-
-  Configure environment variables in Vercel dashboard
-
-  Deploy!
+  Push your code to a GitHub repository  
+  Create a Vercel account and import your project  
+  Configure environment variables in Vercel dashboard  
+  Deploy!  
 
 ### Backend (Heroku)
-  Create a Heroku account and new app
-  
-  Connect your GitHub repository
+  Create a Heroku account and new app  
+  Connect your GitHub repository  
+  Configure environment variables in Heroku settings  
+  Deploy!  
 
-  Configure environment variables in Heroku settings
-
-  Deploy!
-
-## API Endpoints
-  Endpoint	Method	Description
-  /api/products	GET	Get all products
-  /api/products/:id	GET	Get single product
-  /api/products	POST	Create product (admin)
-  /api/users/login	POST	User login
-  /api/users/register	POST	User registration
-  /api/orders	POST	Create new order
-  /api/orders/:id	GET	Get order by ID
+## API Endpoints  
+  Endpoint	Method	Description  
+  /api/products	GET	Get all products  
+  /api/products/:id	GET	Get single product  
+  /api/products	POST	Create product (admin)  
+  /api/users/login	POST	User login  
+  /api/users/register	POST	User registration  
+  /api/orders	POST	Create new order  
+  /api/orders/:id	GET	Get order by ID  
