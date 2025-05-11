@@ -66,6 +66,7 @@ A modern, full-stack e-commerce platform built with Next.js, React, Node.js, and
 5. Open your browser and navigate to:
   http://localhost:3000
 ## Project Structure
+
   e-commerce-project/
   ├── frontend/               # Next.js frontend application
   │   ├── components/         # Reusable UI components
@@ -86,6 +87,7 @@ A modern, full-stack e-commerce platform built with Next.js, React, Node.js, and
   ├── .gitignore
   ├── LICENSE
   └── README.md
+  
 ## Available Scripts
 ###Frontend
   npm run dev - Start development server
